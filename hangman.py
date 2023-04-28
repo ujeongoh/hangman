@@ -87,6 +87,7 @@ def displayBoard(HANGMANPICS, missedLetters, correctLetters, secretWord):
     print()
 
 def getGuess(alreadyGuessed):
+
     # Returns the letter the player entered. This function makes sure the player entered a single letter, and not something else.
     while True:
         print('Guess a letter.')
@@ -123,7 +124,7 @@ def checkWrongAnswer(missedLetters, secretWord):
             
 def main():
     """Main application entry point."""
-    print('H A N G M A N by ...')
+    print('H A N G M A N by ...ohyujeong')
     missedLetters = ''
     correctLetters = ''
     gameSucceeded = False
